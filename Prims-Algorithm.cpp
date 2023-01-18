@@ -52,9 +52,6 @@ int main(){
 		u--;
 		v--;
 		G[u].push_back(v);
-		if(w<0){
-			w = 10000;
-		}
 		cost[{u,v}] = w;
 	}
 	//primsalgorithm
